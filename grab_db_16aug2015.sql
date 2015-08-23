@@ -31,6 +31,7 @@ create table MST_ACTION(
 action_id int primary key auto_increment,
 menu_id int not null,
 menu_url varchar(200) not null,
+descrip varchar(100),
 foreign key (menu_id) references MST_MENU(menu_id) on delete cascade
 );
 
