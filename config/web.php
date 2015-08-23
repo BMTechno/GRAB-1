@@ -40,8 +40,11 @@ $config = [
         'db' => require(__DIR__ . '/db.php'),
     ],
     'modules' => [
-        'form' => [
-            'class' => 'app\modules\form\form',
+        'master' => [
+            'class' => 'app\modules\master\master',
+        ],
+        'core' => [
+            'class' => 'app\modules\core\core',
         ],
     ],
     'params' => $params,
