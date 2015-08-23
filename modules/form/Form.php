@@ -1,8 +1,8 @@
 <?php
 
-namespace app\modules\dummy;
+namespace app\modules\form;
 
-class Dummy extends \yii\base\Module
+class Form extends \yii\base\Module
 {
     public function init()
     {

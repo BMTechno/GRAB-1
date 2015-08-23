@@ -1,11 +1,11 @@
 <?php
 
-namespace app\modules\dummy\controllers;
+namespace app\modules\form\controllers;
 
 use yii\web\Controller;
 use app\models\Test;
 
-class TestController extends Controller
+class RabController extends Controller
 {
 	public function actionIndex()
     {
